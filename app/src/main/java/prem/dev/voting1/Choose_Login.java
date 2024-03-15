@@ -47,9 +47,9 @@ public class Choose_Login extends AppCompatActivity {
         three.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              //  Intent intent2 = new Intent(Choose_Login.this, StaffAdmin_login.class);
-               // intent2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-              // startActivity(intent2);
+               Intent intent2 = new Intent(Choose_Login.this, StaffAdmin_login.class);
+                intent2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+               startActivity(intent2);
 
             }
         });
