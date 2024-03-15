@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Candidate_Profile">
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/verification_txt"
+         android:text=""
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <TextView
+         android:id="@+id/name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.553" />
+
+     <TextView
+         android:id="@+id/email"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.503"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.608" />
+
+     <Button
+         android:id="@+id/logout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Logout"
+         tools:ignore="MissingConstraints"
+         tools:layout_editor_absoluteX="-16dp"
+         tools:layout_editor_absoluteY="518dp" />
+ -->
+    <!-- <androidx.recyclerview.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:id="@+id/recyclerview"
+         android:layout_height="match_parent"
+         tools:layout_editor_absoluteX="347dp"
+         tools:layout_editor_absoluteY="278dp" />-->
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/cimageView2"
+        android:layout_width="295dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/id_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/Cverfication_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Your Verification is in Process"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cimageView2"></TextView>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/cverfication_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="If approved you will be able \n to login in system"
+        android:textAlignment="center"
+
+        android:textSize="25sp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cimageView2"
+        app:layout_constraintVertical_bias="0.823"></TextView>
+
+//
+    <ImageView
+        android:id="@+id/cphoto_retrieve"
+        android:visibility="invisible"
+        android:layout_width="186dp"
+        android:layout_height="186dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+    <TextView
+        android:visibility="invisible"
+
+        android:id="@+id/cname_retrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cphoto_retrieve"></TextView>
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/ctick"
+        android:src="@drawable/tick"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_marginRight="207dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cname_retrive"></ImageView>
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/cverify_text"
+        android:layout_width="84dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="189dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="120dp"
+        android:text="Verified"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cname_retrive"></TextView>
+
+
+    <ScrollView
+
+        android:id="@+id/scrollView"
+        android:layout_width="395dp"
+        android:layout_height="290dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/cverify_text"
+        app:layout_constraintVertical_bias="0.972">
+
+        <RelativeLayout
+            android:id="@+id/Relative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="25dp"
+            android:visibility="invisible">
+
+
+            <TextView
+                android:id="@+id/cremail_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:paddingLeft="12dp"
+                android:layout_marginStart="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.611"
+                app:layout_constraintStart_toStartOf="parent"></TextView>
+
+
+            <TextView
+                android:paddingLeft="14dp"
+
+                android:id="@+id/cremail_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cremail_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/craddress_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cremail_retrieve_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:paddingLeft="12dp"
+
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/craddress_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/craddress_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:paddingLeft="14dp"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/crbirthday_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/craddress_retrieve_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Birthday:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:paddingLeft="12dp"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/crbirthday_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crbirthday_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:paddingLeft="14dp"
+
+                ></TextView>
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/crage_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crbirthday_retrieve_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Age:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/crage_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crage_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Age:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:paddingLeft="14dp"
+
+                ></TextView>
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/crgender_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crage_retrieve_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Gender:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/crgender_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crgender_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:paddingLeft="14dp"
+
+                android:layout_marginTop="28dp"
+                android:text="Gender:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/crmobile_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crgender_retrieve_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+
+                android:layout_marginTop="28dp"
+                android:text="Mobile:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+            <TextView
+                android:paddingLeft="14dp"
+
+                android:id="@+id/crmobile_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crmobile_label_dashboard"
+                android:layout_marginStart="20dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Mobile:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <TextView
+
+                android:id="@+id/crupload_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crmobile_retrieve_dashboard"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Uploaded Documents:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/craadhar_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crupload_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+
+                android:layout_marginTop="28dp"
+                android:text="Addhar Card:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/craadhar_frontside_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/craadhar_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+
+                android:layout_marginTop="120dp"
+                android:text="Front-side:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+            <ImageView
+                android:paddingLeft="14dp"
+
+                android:id="@+id/craadhar_frontside_retrieve_dashboard"
+                android:layout_width="243dp"
+                android:layout_height="188dp"
+                android:layout_below="@+id/craadhar_label_dashboard"
+                android:layout_marginStart="140dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="10dp"
+
+
+                android:visibility="invisible"></ImageView>
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/craadhar_backside_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/craadhar_frontside_label_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+
+                android:layout_marginTop="200dp"
+                android:text="Back-side:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+            <ImageView
+                android:paddingLeft="14dp"
+
+                android:id="@+id/craadhar_backside_retrieve_dashboard"
+                android:layout_width="243dp"
+                android:layout_height="188dp"
+                android:layout_below="@+id/craadhar_frontside_retrieve_dashboard"
+                android:layout_marginStart="140dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="10dp"
+
+
+                android:visibility="invisible"></ImageView>
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/crbirthdaycertificate_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/craadhar_backside_retrieve_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+
+                android:layout_marginTop="20dp"
+                android:text="Birthday-Certificate :"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+            <ImageView
+                android:paddingLeft="14dp"
+
+                android:id="@+id/crbirthdaycertificate_retrieve_dashboard"
+                android:layout_width="349dp"
+                android:layout_height="188dp"
+                android:layout_below="@+id/crbirthdaycertificate_label_dashboard"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginRight="22dp"
+                android:visibility="invisible"
+
+
+                ></ImageView>
+
+
+            <TextView
+                android:paddingLeft="12dp"
+
+                android:id="@+id/crleavingcertificate_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/crbirthdaycertificate_retrieve_dashboard"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+
+                android:layout_marginTop="20dp"
+                android:text="Leaving-Certificate :"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                ></TextView>
+
+            <ImageView
+                android:paddingLeft="14dp"
+
+                android:id="@+id/crleavingcertificate_retrieve_dashboard"
+                android:layout_width="349dp"
+                android:layout_height="188dp"
+                android:layout_below="@+id/crleavingcertificate_label_dashboard"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="36dp"
+
+                android:layout_marginRight="22dp"
+                android:visibility="invisible"
+
+
+                ></ImageView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

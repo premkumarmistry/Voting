@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93066564920",
+    "project_id": "voting-b980a",
+    "storage_bucket": "voting-b980a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93066564920:android:b8f6420c5a577c8dfe1dcd",
+        "android_client_info": {
+          "package_name": "prem.dev.voting1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Oo2R4pv4nqbHgT62ev_yo-Y0UKQ_tiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

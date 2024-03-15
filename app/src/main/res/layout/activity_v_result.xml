@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="200dp"
+    android:layout_height="match_parent"
+    tools:context=".vResult">
+
+
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:id="@+id/textParties1"
+        android:layout_below="@+id/party4"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:id="@+id/textParties2"
+        android:layout_below="@+id/textParties1"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:id="@+id/textParties3"
+        android:layout_below="@+id/textParties2"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:id="@+id/textParties4"
+        android:layout_below="@+id/textParties3"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

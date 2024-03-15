@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+            <TextView
+                android:id="@+id/cremail_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.611"
+                app:layout_constraintStart_toStartOf="parent"
+                ></TextView>
+
+            <TextView
+                android:layout_below="@id/cremail_label_dashboard"
+                android:id="@+id/cremail_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            //
+            <TextView
+                android:layout_below="@id/cremail_retrieve_dashboard"
+                android:id="@+id/craddress_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+            <TextView
+                android:layout_below="@id/craddress_label_dashboard"
+                android:id="@+id/craddress_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+            <TextView
+                android:layout_below="@id/craddress_retrieve_dashboard"
+                android:id="@+id/crbirthday_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Birthday:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+
+            <TextView
+                android:layout_below="@id/crbirthday_label_dashboard"
+                android:id="@+id/crbirthday_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <TextView
+                android:layout_below="@id/crbirthday_retrieve_dashboard"
+                android:id="@+id/crage_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Age:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+            <TextView
+                android:layout_below="@id/crgender_label_dashboard"
+                android:id="@+id/crage_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Age:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+            <TextView
+                android:layout_below="@id/crage_retrieve_dashboard"
+                android:id="@+id/crgender_label_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Gender:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+            <TextView
+                android:layout_below="@id/crgender_label_dashboard"
+                android:id="@+id/crgender_retrieve_dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="28dp"
+                android:text="Gender:"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="prem.dev.voting1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_main_screen"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_main_screen"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Voting">
+        <activity android:name="prem.dev.voting1.Staff_Result_Select"></activity>
+        <activity android:name="prem.dev.voting1.Staff_ElectionSelect" />
+        <activity android:name="prem.dev.voting1.splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="prem.dev.voting1.ApproveTest" />
+        <activity android:name="prem.dev.voting1.Staff_Candidate_list" />
+        <activity android:name="prem.dev.voting1.Staff_Voter_List" />
+        <activity android:name="prem.dev.voting1.Staff_Dashboard" />
+        <activity android:name="prem.dev.voting1.VCandidate_viewRecycleActivity" />
+        <activity android:name="prem.dev.voting1.cShareFeeds" />
+        <activity android:name="prem.dev.voting1.cUpload_Manifesto" />
+        <activity android:name="prem.dev.voting1.Candidate_Login_Check" />
+        <activity android:name="prem.dev.voting1.VoterCandidate_ListActivity" />
+        <activity android:name="prem.dev.voting1.StaffAdmin_login" />
+        <activity android:name="prem.dev.voting1.Candidate_login" />
+        <activity android:name="prem.dev.voting1.Voter_login" />
+        <activity android:name="prem.dev.voting1.Choose_Login" />
+        <activity android:name="prem.dev.voting1.login_check" />
+        <activity android:name="prem.dev.voting1.cResult" />
+        <activity android:name="prem.dev.voting1.cVote" />
+        <activity android:name="prem.dev.voting1.Candidate_Profile" />
+        <activity android:name="prem.dev.voting1.vResult" />
+        <activity android:name="prem.dev.voting1.vVote" />
+        <activity android:name="prem.dev.voting1.candidate_dashboard" />
+        <activity android:name="prem.dev.voting1.Voter_dashboard" />
+        <activity android:name="prem.dev.voting1.MainScreen" />
+        <activity android:name="prem.dev.voting1.Dashboard" />
+        <activity android:name="prem.dev.voting1.login" />
+        <activity android:name="prem.dev.voting1.Register_for_candinate" />
+        <activity android:name="prem.dev.voting1.Register_for_voter" />
+        <activity android:name="prem.dev.voting1.Register_mainscreen" />
+        <activity android:name="prem.dev.voting1.MainActivity" />
+    </application>
+
+</manifest>

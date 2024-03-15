@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen">
+
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:src="@drawable/icon_main_screen"
+        ></ImageView>
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="236dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="223dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="54dp"
+        android:text="Login"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+    <!--<ImageView
+        android:id="@+id/m_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+
+
+        android:background="@drawable/register_mm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_height="wrap_content"
+        android:src="@drawable/m_divide"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <!-- <ImageView
+         android:layout_width="wrap_content"
+         android:id="@+id/m_login"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="424dp"
+         android:src="@drawable/m_login"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.508"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"></ImageView>-->
+
+</RelativeLayout>

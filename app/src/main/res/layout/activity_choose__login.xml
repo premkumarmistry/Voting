@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choose_Login">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login As"
+
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+
+
+
+        ></TextView>
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Voter Login"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/register"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="11dp"
+        android:text="Candidate Login" />
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/sal"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/login"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Staff Admin Login" />
+</RelativeLayout>
