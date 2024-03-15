@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:layout_marginTop="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    >
+
+
+    //rvr
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/cimage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/upload_1"
+
+
+                ></ImageView>
+
+
+
+            <Button
+                android:id="@+id/cApprove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Approve"
+                android:textSize="13dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/cReject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reject"
+                android:textSize="13dp"
+                ></Button>
+
+
+
+            <Button
+                android:id="@+id/cleaving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leaving "
+
+                ></Button>
+
+
+
+            <Button
+                android:id="@+id/cAadharCardFront"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aadhar Front"
+                android:textSize="13dp"
+                ></Button>
+
+
+            <Button
+                android:id="@+id/cAadharCardBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aadhar Back"
+                android:textSize="13dp"
+                ></Button>
+
+
+            <Button
+                android:id="@+id/cBirthCertificate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BirthCertificate"
+                android:textSize="12dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/cManifesto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manifesto"
+                android:textSize="12dp"
+                ></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/cid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/ccid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/cleavef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/cmanif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/cbirthf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/caadharf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DummyEmail@gmail.com"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_name_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:id="@+id/rcr_age_retrive_data"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Age"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    //age
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender Data"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_gender_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+    //party
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address :"
+                android:layout_marginStart="0dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                android:layout_marginLeft="10dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_address_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    //Feeds
+
+    //party
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_email_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    //Birthdate
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birthdate :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birthdate"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_bithday_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    //PartyName
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PartyName :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birthdate"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_partyname_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    //PartyCode
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="370dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PartyCode :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birthdate"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_partycode_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    //isCandidategone
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isCandidate :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                ></TextView>
+
+            <TextView
+                android:visibility="gone"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isCandidate"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_isCandidate_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    //iscandidate
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iscandidate :"
+                android:textStyle="bold"
+                android:layout_marginStart="14dp"
+                android:textSize="20sp"
+
+
+                android:layout_marginLeft="10dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isCandidate"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_iscandidate1_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    //isEnabled
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isEnabled :"
+                android:textStyle="bold"
+                android:layout_marginStart="14dp"
+                android:textSize="20sp"
+
+
+                android:layout_marginLeft="10dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isEnabled"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_isenabled_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+        //iscandidate
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="prem :"
+                    android:textStyle="bold"
+                    android:layout_marginStart="14dp"
+                    android:textSize="20sp"
+
+
+                    android:layout_marginLeft="10dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="isCandidate"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/rcr_is_retrive_data"
+
+                    android:layout_marginLeft="20dp"></TextView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    //isEnabled
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="140dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feed :"
+                android:textStyle="bold"
+                android:layout_marginStart="14dp"
+                android:textSize="20sp"
+
+
+                android:layout_marginLeft="10dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fetch Feed"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/rcr_feed_retrive_data"
+
+                android:layout_marginLeft="20dp"></TextView>
+
+
+
+        </LinearLayout>
+
+
+      <!--  //iscandidate
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="prem :"
+                    android:textStyle="bold"
+                    android:layout_marginStart="14dp"
+                    android:textSize="20sp"
+
+
+                    android:layout_marginLeft="10dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="isCandidate"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/rcr_is_retrive_data"
+
+                    android:layout_marginLeft="20dp"></TextView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>-->
+
+
+
+
+    </LinearLayout>
+
+
+
+    <!--  <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_marginTop="220dp"
+          android:layout_marginStart="150dp"
+          android:layout_marginLeft="150dp">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+
+
+
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="View Profile"
+      android:id="@+id/viewprofile"
+
+      ></Button>
+
+
+
+          </LinearLayout>-->
+
+
+
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/cfetchm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="10sp"
+
+
+                ></TextView>
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--  <Button
+          android:id="@+id/retrive_manifesto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="View Manifesto"
+
+          ></Button>-->
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="00dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/Aadhar"
+
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/upload_1"
+
+
+
+
+            ></ImageView>
+
+        <ImageView
+            android:id="@+id/leaving"
+
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/upload_1"
+
+
+
+
+            ></ImageView>
+
+
+        <ImageView
+            android:id="@+id/birth"
+
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/upload_1"
+
+
+
+
+            ></ImageView>
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="00dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DummyEmail@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/address"
+
+            ></TextView>
+
+        <TextView
+                android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DummyEmail@gmail.com"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/age"
+
+        ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DummyEmail@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/birthday"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DummyEmail@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/gender"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DummyEmail@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/mobile"
+
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DummyEmail@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/id"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DummyEmail@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/is"
+
+            ></TextView>
+
+    </LinearLayout>
+    </LinearLayout>-->
+
+</androidx.cardview.widget.CardView>
